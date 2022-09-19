@@ -17,13 +17,32 @@ body{
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 1.875rem;
-    margin: 0 auto 0 auto;
+
   
 }
+.container{
+    max-width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+}
+
+@media (max-width: 900px){
+    .container{
+        min-width: 94%;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        min-width: 94%;
+    } 
+}
+
 h1{
     
     font-size: 3rem;  
-    font-weight: 700; 
+    font-weight: 700;
+    line-height: 3.5rem;
     text-align: center;
     color:  var(----black);
     
@@ -34,14 +53,13 @@ h1{
     padding-top: 4rem;
     padding-bottom: 4rem;
     background: #EAF4FF;
-    text-align: center;
+   
   
 
 }
 H2{
     display: block;
     margin: 4rem auto 1.5rem auto;
-    width: 43.875rem;
     height: 2rem;
     font-weight: 600;
     font-size: 1.5rem;
@@ -50,14 +68,14 @@ H2{
 
 .text{
     display: block;
+    
     margin: 0 auto 1.5rem auto;
-    width: 702px;
-    color: var(--main-text)
+       color: var(--main-text)
    
 }
 .image1{
     display: block;
-    margin: 0 auto 1.5rem auto;
+    margin: 0rem auto 1.5rem auto;
 
    }
 
@@ -67,15 +85,16 @@ H2{
 
    }
    ul{
-    width: 43.875rem;
+   
     margin: 0 auto 0 auto;
    }
 
 table{
-    width: 43.875rem;
+    
     border-collapse: collapse;
     border:  0 var(--border) var(--border) var(--border);
     margin: 0 auto;
+   
 
 }
 th{
